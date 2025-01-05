@@ -1,0 +1,378 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "What's up"
+        ],
+        "responses": [
+            "Hi there, how can i help you",
+            "Hello, how may i help you",
+            "Hey"
+        ]
+    },
+    {
+        "tag": "good morning",
+        "patterns": [
+            "Good Morning"
+        ],
+        "responses": [
+            "Good morning"
+        ]
+    },
+    {
+        "tag": "good afternoon",
+        "patterns": [
+            "Good afternoon"
+        ],
+        "responses": [
+            "Good afternoon"
+        ]
+    },
+    {
+        "tag": "good evening",
+        "patterns": [
+            "Good evening"
+        ],
+        "responses": [
+            "Good evening"
+        ]
+    },
+    {
+        "tag": "good night",
+        "patterns": [
+            "Good night"
+        ],
+        "responses": [
+            "Good night",
+            "Have a sweet dream dear"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "By",
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye",
+            "See you later",
+            "Take care"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome",
+            "No problem",
+            "Glad I could help"
+        ]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+            "Who are you",
+            "What are you",
+            "What is your name",
+            "Who created you"
+        ],
+        "responses": [
+            "I am a chatbot created by Rahul Ji Ara",
+            "I am SUPRV GPT created by Rahul Ji Ara",
+            "I am AI Model"
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "I need help",
+            "Can you help me",
+            "What should I do"
+        ],
+        "responses": [
+            "Sure, what do you need help with?",
+            "I'm here to help. What's the problem?",
+            "How can I assist you?"
+        ]
+    },
+    {
+        "tag": "age",
+        "patterns": [
+            "How old are you",
+            "What's your age"
+        ],
+        "responses": [
+            "I don't have an age. I'm a chatbot.",
+            "I was just born in the digital world.",
+            "Age is just a number for me."
+        ]
+    },
+    {
+        "tag": "weather",
+        "patterns": [
+            "What's the weather like",
+            "How's the weather today"
+        ],
+        "responses": [
+            "I'm sorry, I cannot provide real-time weather information.",
+            "You can check the weather on a weather app or website."
+        ]
+    },
+    {
+      "tag": "book_hotel",
+      "patterns": [
+        "I want to book a hotel",
+        "Can you help me book a room?",
+        "Book room",
+        "Book hotel",
+        "How can I reserve a hotel?"
+      ],
+      "responses": ["Sure! Can you tell me the city, check-in date, and check-out date?"]
+    },
+    {
+      "tag": "cancel_booking",
+      "patterns": [
+        "I want to cancel my reservation",
+        "Cancel my hotel booking",
+        "Cancel my booking",
+        "Cancel booking",
+        "Cancel my reservation",
+        "Cancel reservation",
+        "Cancel",
+        "How do I cancel a room I booked?"
+      ],
+      "responses": ["Sure, please provide your booking ID, and I will process the cancellation."]
+    },
+    {
+      "tag": "modify_booking",
+      "patterns": [
+        "Can I change my booking?",
+        "How do I change my reservation?",
+        "I want to change my reservation?",
+        "Can I modify my booking?",
+        "How do I modify my reservation?",
+        "I want to modify my reservation?",
+        "Can I change booking?",
+        "How do I change reservation?",
+        "I want to change reservation?",
+        "Can I modify booking?",
+        "How do I modify reservation?",
+        "I want to modify reservation?",
+        "Modify reservation",
+        "Modify my reservation",
+        "Update my booking",
+        "Update booking",
+        "Modify booking",
+        "I need to update my booking details"
+      ],
+      "responses": ["Yes, you can modify your booking. Please provide your booking ID."]
+    },
+    {
+      "tag": "available_hotels",
+      "patterns": [
+        "What hotels are available?",
+        "Show available hotels",
+        "Give list of hotels",
+        "What hotels are available?",
+        "Show me hotels in New York",
+        "List of hotels"
+      ],
+      "responses": [
+        "Here are some hotels in your requested location. Please specify your check-in and check-out dates."
+      ]
+    },
+    {
+      "tag": "hotel_details",
+      "patterns": [
+        "Tell me about Hotel",
+        "What facilities does Comfort hotel have?",
+        "Give me details about Stay",
+        "Hotel details"
+      ],
+      "responses": [
+        "SUPRV Accommodation offers free Wi-Fi, a swimming pool, and complimentary breakfast. Would you like to proceed with booking?"
+      ]
+    },
+    {
+      "tag": "price_query",
+      "patterns": [
+        "How much does a room cost?",
+        "What are the rates for hotels",
+        "What are the rates for hotels",
+        "Are there budget-friendly options?",
+        "Price of hotel",
+        "Cost of the hotel"
+      ],
+      "responses": [
+        "SUPRV Accommodation, Ahmedabad shows 500/night.","SUPRV Accommodation, Mumbai shows 700/night."
+      ]
+    },
+    {
+      "tag": "amenities_query",
+      "patterns": [
+        "What amenities are available?",
+        "Do hotels have free Wi-Fi?",
+        "Are there swimming pools in hotels?"
+      ],
+      "responses": [
+        "Most hotels offer free Wi-Fi, room service, and parking. Let me check the amenities for your selected hotel."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Can I pay with a debit card?",
+        "Do you accept upi"
+      ],
+      "responses": [
+        "We accept credit cards, debit cards, UPI, and bank transfers. Let me know how you'd like to proceed."
+      ]
+    },
+    {
+      "tag": "special_requests",
+      "patterns": [
+        "Can I request a room with a view?",
+        "I need an extra bed in the room",
+        "Is there a smoking room available?"
+      ],
+      "responses": [
+        "Special requests can be accommodated based on availability. Please mention your request while booking."
+      ]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "What is your refund policy?",
+        "Can I get a refund if I cancel?",
+        "How do i get refund?",
+        "Is there a fee for cancellations?"
+      ],
+      "responses": [
+        "Refunds depend on the booking terms. Please provide your booking ID for specific details."
+      ]
+    },
+    {
+      "tag": "room_availability",
+      "patterns": [
+        "Are there rooms available?",
+        "Can I book a room for tomorrow?",
+        "Check availability for this weekend"
+      ],
+      "responses": [
+        "Let me check room availability for your dates. Can you share the city and your travel dates?"
+      ]
+    },
+    {
+      "tag": "location_query",
+      "patterns": [
+        "Where is this hotel located?",
+        "Show me the address of the hotel",
+        "Is the hotel near the airport?"
+      ],
+      "responses": [
+        "The hotel is located at Mumbai & Ahmedabad. Would you like a map link for directions?"
+      ]
+    },
+    {
+      "tag": "check_in_time",
+      "patterns": [
+        "What is the check-in time?",
+        "When can I check in?",
+        "Is early check-in available?"
+      ],
+      "responses": [
+        "Check-in time is usually 2 PM. Early check-in can be arranged based on availability."
+      ]
+    },
+    {
+      "tag": "check_out_time",
+      "patterns": [
+        "What is the check-out time?",
+        "When do I need to leave the room?",
+        "Is late check-out available?"
+      ],
+      "responses": [
+        "Check-out time is usually 11 AM. Late check-out can be arranged based on availability."
+      ]
+    },
+    {
+      "tag": "child_policy",
+      "patterns": [
+        "Are children allowed?",
+        "Is there a charge for kids?",
+        "Can I book a family room?"
+      ],
+      "responses": [
+        "Ofcourse children are allowed, hotels may charge for extra beds."
+      ]
+    },
+    {
+      "tag": "pet_policy",
+      "patterns": [
+        "Are pets allowed?",
+        "Can I bring my dog?",
+        "Do you allow cats in the hotel?"
+      ],
+      "responses": [
+        "Some hotels allow pets. Let me know your preferences, and I'll find suitable options for you."
+      ]
+    },
+    {
+      "tag": "group_booking",
+      "patterns": [
+        "Can I book for a group?",
+        "How do I reserve rooms for a group?",
+        "Do you offer group discounts?"
+      ],
+      "responses": [
+        "Yes, group bookings are possible. Please share the number of people and dates, and I'll provide options."
+      ]
+    },
+    {
+      "tag": "corporate_booking",
+      "patterns": [
+        "Do you offer corporate rates?",
+        "Can I book for a business trip?",
+        "Are there meeting rooms available?"
+      ],
+      "responses": [
+        "Yes, we offer corporate packages and meeting rooms. Please share your requirements."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Can I book a hotel for an event?",
+        "Do you have banquet halls?",
+        "Are there conference facilities?"
+      ],
+      "responses": [
+        "Yes, many hotels offer event spaces. Please share your requirements, and I'll provide options."
+      ]
+    },
+    {
+      "tag": "complaints",
+      "patterns": [
+        "I have a complaint",
+        "The hotel service was bad",
+        "How can I report an issue?"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Please provide details about the issue, and I'll assist you."
+      ]
+    }
+]
