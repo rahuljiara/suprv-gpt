@@ -33,6 +33,10 @@
     text-align: center;
     animation: colorChange 20s ease infinite;
 }
+.subhead{
+    text-align: justify;
+    font-size: 15px;
+}
 
 
 .chat-row {

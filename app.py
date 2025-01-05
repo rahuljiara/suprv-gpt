@@ -55,6 +55,7 @@ if choice == "🏠Home":
     st.write(
          """
           <div class="title"> SUPRV GPT </div>
+        <div class="subhead"> Our AI-powered accommodation rental chatbot is your personal assistant for finding the perfect place to stay. Available 24/7, it helps you search for properties, check availability, compare prices, and even book your stay—all through a simple, conversational interface. With advanced AI, it understands your preferences and provides tailored recommendations, ensuring a seamless and hassle-free rental experience. Whether you're planning a vacation, a business trip, or a long-term stay, our chatbot is here to make the process easy, fast, and efficient </div>
         """,
     unsafe_allow_html=True
 )
